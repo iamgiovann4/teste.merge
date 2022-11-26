@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: rgba(115, 115, 115, 0.706);
+    font-size: .7rem;
+}
