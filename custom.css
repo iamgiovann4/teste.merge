@@ -1,13 +1,21 @@
-
-h1{
-    color: black;
+body{
+    background-color: rgb(233, 171, 164);
 }
 
-h2{
-    color: rgba(115, 115, 115, 0.706);
-    font-size: .7rem;
+h1, h2, p{
+    text-align: center;
+    color: rgb(134, 27, 27);
+    font-size: 1rem;
 }
 
-#texto > p {
-    color: aqua;
+#texto {
+    margin: auto;
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
